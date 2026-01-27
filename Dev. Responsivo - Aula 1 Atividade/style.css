@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #0078b7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section{
+    background-color: white;
+    margin: 15px; /*Espaço entre as seções*/
+    padding: 20px; /* Espaço do texto*/
+    border-radius: 8px; /*Arredonda as pontas das caixas*/
+}
+
+.rodape{
+    background-color: #0078b7;
+    color: #ffebcd;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10;
+}
+
+/* Responsividade aqui coloquei as seguintes configurações quando a tela tiver menos de 600px */
+@media(max-width: 600px){
+    header h1 {
+        font-size: 20px; /*diminui as letras para caberem na tela*/
+    }
+    section{
+        margin: 10px; /*diminuimos as margens para aproveitar os espaços*/
+    }
+}
