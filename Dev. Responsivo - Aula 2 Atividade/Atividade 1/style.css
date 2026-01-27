@@ -1,0 +1,69 @@
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #363d41;
+    color: white;
+    font-size: 20px;
+}
+
+div, li{
+    padding: 5px;
+}
+
+footer {
+    background-color: #363d41;
+    color: #ffebcd;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.menu li{
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+}
+.menu li:hover {
+    color: #40b6fa;
+}
+
+.btn-menu{
+    display: none;
+}
+
+/* Responsividade aqui coloquei as seguintes configurações quando a tela tiver menos de 600px */
+@media(max-width: 700px){
+    header h1 {
+        font-size: 20px; /*diminui as letras para caberem na tela*/
+    }
+    .menu{
+        flex-direction: column;
+        display: none;
+        background-color: #444;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+
+    .btn-menu{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    .btn-menu:active + .menu{
+        display: block;
+    }
+}

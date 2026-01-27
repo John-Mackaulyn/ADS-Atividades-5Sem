@@ -11,6 +11,12 @@ Repositório feito para armazenar exercícios e atividades práticas realizado n
 ## 🔧 Atividades Recentes: Desenvolvimento Responsivo
 - **Aula 1**: Introdução ao desenvolvimento responsivo e fundamentos de layout
 
+- **Aula 2**: Seletores e Pseudo-classes (Menu Responsivo)
+Implementação de layout adaptável para dispositivos móveis utilizando `@media queries`.
+Uso da pseudo-classe `:active` e seletores adjacentes (`+`) para criação de menu interativo sem JavaScript.
+Centralização de regras CSS em um único arquivo para múltiplas páginas HTML.
+Prática de manutenção escalável: alteração global de estilos (ex: `h1`) afetando todo o projeto simultaneamente.
+
 ## 💻 Tecnologias utilizadas
 - HTML e CSS
 - Git e Github
