@@ -17,6 +17,11 @@ Uso da pseudo-classe `:active` e seletores adjacentes (`+`) para criação de me
 Centralização de regras CSS em um único arquivo para múltiplas páginas HTML.
 Prática de manutenção escalável: alteração global de estilos (ex: `h1`) afetando todo o projeto simultaneamente.
 
+- **Aula 03**: Web Design Responsivo:
+Media Queries (@media) para adaptação Mobile.
+Layouts fluídos com Flexbox.
+Imagens flexíveis e tag <picture>.
+
 ## 💻 Tecnologias utilizadas
 - HTML e CSS
 - Git e Github

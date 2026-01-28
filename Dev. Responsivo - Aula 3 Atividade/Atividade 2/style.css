@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    background-color: lime;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Logo {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none; /* Remove os pontos/bullets */
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    cursor: pointer;
+    transition: 0.3s; /* Suaviza o efeito de hover */
+}
+
+nav ul li:hover {
+    color: #333; /* Cor muda ao passar o mouse */
+    text-decoration: underline;
+}
+.servicos ol{
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Limita a largura em telas muito grandes */
+    margin: 0 auto;    /* Centraliza o site no monitor */
+}
+
+.rodape{
+    background-color: lime;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Media Query para dispositivos móveis (até 600px) */
+@media (max-width: 800px) {
+    header {
+        flex-direction: column; /* Empilha o título e o menu */
+        text-align: center;
+    }
+
+    nav ul{
+        flex-direction: column; /* Menu vira uma lista vertical */
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .banner h2 {
+        font-size: 1.5rem; /* Diminui o texto no celular */
+    }
+    .servicos ol {
+        padding-left: 20px; 
+    }
+}

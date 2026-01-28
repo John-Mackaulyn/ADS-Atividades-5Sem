@@ -1,0 +1,61 @@
+/* Reset para evitar espaços */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configuração para imagem responsiva */
+.img-1{
+    max-width: 100%; /*Nunca ultrapassa a largura da tela*/
+    height: auto;   /*Mantém a proporção da imagem*/
+    display: block;
+    margin: 20px auto;
+}
+
+/* layout do header */
+header{
+    background-color: tomato;
+    color: yellow;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Menu-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.NomeSite{
+    width: 100%;
+}
+
+.Menu-btn{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    .Menu-nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #444;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .Menu-btn{
+        display: block;
+    }
+    .Menu-nav ul.active{
+        display: flex;
+    }
+}
