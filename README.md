@@ -22,6 +22,9 @@ Media Queries (@media) para adaptação Mobile.
 Layouts fluídos com Flexbox.
 Imagens flexíveis e tag <picture>.
 
+- **Aula 04**: Web Design Responsivo: 
+Conceito e utilização de Mobile-First.
+
 ## 💻 Tecnologias utilizadas
 - HTML e CSS
 - Git e Github

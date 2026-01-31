@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;/* espaço entre as linhas */
+}
+
+/* --- Cabeçalho --- */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que o menu caia para a linha de baixo no mobile */
+}
+
+.Menu-Titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Menu-Logo {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.Menu-Nav {
+    width: 100%; /* No mobile, o menu ocupa a largura toda */
+    margin-top: 10px;
+}
+
+.Menu-Nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Itens um embaixo do outro no celular */
+    gap: 10px;
+}
+
+.Menu-Nav ul li {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* --- Conteúdo --- */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.Btn-Leia {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* --- Rodapé --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #665;
+}
+
+/* --- Media Query para Desktop --- */
+@media (min-width: 768px) {
+    .Menu-Nav {
+        width: auto;
+        margin-top: 0;
+    }
+    
+    .Menu-Nav ul {
+        flex-direction: row; /* Lado a lado no computador */
+    }
+
+    .Menu-Logo {
+        display: none; /* Esconde o ícone de hambúrguer no desktop */
+    }
+}
