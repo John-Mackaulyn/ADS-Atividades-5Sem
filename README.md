@@ -25,6 +25,13 @@ Imagens flexíveis e tag <picture>.
 - **Aula 04**: Web Design Responsivo: 
 Conceito e utilização de Mobile-First.
 
+
+**Aula 06 (Hoje)**:  Introdução a Frameworks Front-end. Configuração do **Bootstrap 5** via CDN e utilitários de espaçamento. Prática de Situação-Problema: Criação de um **Portfólio Profissional** para Designer Freelancer.
+    - Implementação de Navbar responsiva com menu colapsável. 
+    - Uso do Sistema de **Grid (12 colunas)** para alinhamento de conteúdo.
+    - Componentes de Cards para galeria de projetos.
+    - Layout totalmente adaptável sem necessidade de CSS manual extenso.
+
 ## 💻 Tecnologias utilizadas
 - HTML e CSS
 - Git e Github
